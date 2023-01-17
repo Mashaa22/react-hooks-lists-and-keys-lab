@@ -9,6 +9,7 @@ function ProjectList({ projects }) {
       <ProjectItem key={project.id} name={project.name} about={project.about} technologies={project.technologies}
       />
     )
+    
   })
   return (
     <div id="projects">
